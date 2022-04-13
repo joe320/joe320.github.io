@@ -2,45 +2,131 @@
       <head>
       <meta cahrset="utf-8">
       <style type="text/css">
-            body{
-                  padding:0;
-                  margin:0;
-                  background:url(images/weixin.png) no-repeat 160px 16px,url(images/topbg.jpg) repeat-x;
-            }
-            #nav{
-                  width:835px;
-                  height:70px;
-                  margin-left:320px;
-            }
-            a{
-                  display:block;
-                  float:left;
-                  width:102px;
-                  height:30px;
-                  margin-top:23px;
-                  line-height:30px;
-                  font-size:12px;
+            #wrapper{
+                  margin-top:20px;
+                  height:750px;
                   color:#fff;
-                  text-align:center;
-                  text-decoration:none;
             }
-            .index{
-                  background:url(images/btn2.png) no-repeat;
+            .title{
+                  position:relative;
+                  height:70px;
+                  border-bottom:1px solid #ddd;
+                  margin-bottom:90px;
             }
-            .normal:hover{
-                  bakcground:url(images/btn2.png) no-repeat;
+            .title-img{
+                  position:absolute;
+                  left:50%;
+                  top:5px;
+                  width:380px;
+                  height:100px;
+                  margin-left:-190px;
+                  background:url(images/1.jpg) no-repeat 0 -521px;
+            }
+            .main{
+                  position:relative;
+                  width:1000px;
+                  height:500px;
+                  margin:0 auto;
+                  background:url(images/2.jpg) no-repeat;
+            }
+            .left,.right{
+                  position:absolute;
+                  width:55px;
+                  height:70px;
+                  background:url(images/3.jpg) no-repeat;
+            }
+            .left{
+                  left:5px;
+                  top:275px;
+                  background-position:0 -80px;
+            }
+            .right{
+                  right:5px;
+                  top:275px;
+                  background-position:0 -153px;
+            }
+            .left:hover,right:hover{
+                  background-color:rgba(0,0,0,0.5);
+            }
+            .bottom{
+                  position:absolute;
+                  left:70px;
+                  bottom:-75px;
+                  width:800px;
+                  height:90px;
+                  padding:30px;
+                  background-color:rgba(0,0,0,0.6);
+            }
+            .bottom h2{
+                  float:left;
+                  width:270px;
+                  height:60px;
+                  padding:10px 20px 10px 0;
+                  border-right:1px solid #FFF;
+                  font-family:"微软雅黑";
+                  font-weight:normal;
+                  font-size:22px;
+            }
+            .bottom p{
+                  float:left;
+                  width:480px;
+                  height:60px;
+                  padding:10px 0 10px 20px;
+                  font-size:14px;
+                  margin-bottom:-100px;
+            }
+            .foot{
+                  position:absolute;
+                  left:475px;
+                  bottom=-100px;
+                  width:50px;
+            }
+            .dot1,.dot2{
+                  float:left;
+                  width:9px;
+                  height:10px;
+                  margin-right:2px;
+                  background:url(images/3.png) no-repeat;
+            }
+            .dot1{
+                  background-position:-44px 0;
+            }
+            .dot2{
+                  background-position:-35px 0;
+            }
     </style>
     </head>
     <body>
-          <div id="nav">
-          <a href="#" class="index">首页</a>
-          <a href="#" class="index">帮助</a>
-          <a href="#" class="index">公众</a>
-          <a href="#" class="index">微信</a>
-          <a href="#" class="index">支付</a>
-          <a href="#" class="index">网页版</a>
-          <a href="#" class="index">表情</a>
-          <a href="#" class="index">广告</a>
+          <div id="wrapper">
+          <div class="title">
+          <div class="title-img">
+          </div></div>
+          <div class="main">
+                <a href="#">
+                      <div class="left"></div>
+                </a>
+                <a href="#">
+                      <div class="right"></div>
+                </a>
+          <div class="bottom">
+                <h2>5分钟就能搞定的时髦派对妆 秒杀大红唇和烟熏眼</h2>
+                <p>红唇与烟熏妆曾是派对妆的标配，这个过时的规则早就该打破了。今年秋冬的彩妆流行是简洁时髦的美感：一抹亮片眼影，一个出其不意的眼线，一只镇住全场的唇膏。既然能花5分钟就能搞定的派对妆，为什么要花一个小时呢？</p>
+          </div>
+          <div class="foot">
+                <a href="#">
+                      <div class="dot1"></div>
+                </a>
+                <a href="#">
+                      <div class="dot2"></div>
+                </a>
+                <a href="#">
+                      <div class="dot2"></div>
+                </a>
+                <a href="#">
+                      <div class="dot2"></div>
+                </a>
+          </div>
+          </div>
           </div>
     </body>
 </html>
