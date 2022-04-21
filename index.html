@@ -2,131 +2,92 @@
       <head>
       <meta cahrset="utf-8">
       <style type="text/css">
-            #wrapper{
-                  margin-top:20px;
-                  height:750px;
-                  color:#fff;
+            body,form{
+                  padding:0;
+                  margin:0;
             }
-            .title{
-                  position:relative;
-                  height:70px;
-                  border-bottom:1px solid #ddd;
-                  margin-bottom:90px;
+            body{
+                  background:url(images/dlbg.jpg) no-repeat center top;
+                  padding:50px 0 0 860px;
             }
-            .title-img{
-                  position:absolute;
-                  left:50%;
-                  top:5px;
-                  width:380px;
-                  height:100px;
-                  margin-left:-190px;
-                  background:url(images/1.jpg) no-repeat 0 -521px;
+            form{
+                  width:248px;
+                  height:220px;
+                  background-color:#F5EAE8;
+                  padding:30px 40px;
+                  border:1px solid #F5EAE8;
             }
-            .main{
-                  position:relative;
-                  width:1000px;
-                  height:500px;
-                  margin:0 auto;
-                  background:url(images/2.jpg) no-repeat;
+            input{
+                  display:block;
             }
-            .left,.right{
-                  position:absolute;
-                  width:55px;
-                  height:70px;
-                  background:url(images/3.jpg) no-repeat;
+            [type="text"],[type="password"]{
+                  width:250px;
+                  height:38px;
+                  border:1px solid #CCC;
+                  margin-bottom:30px;
+                  font-size:16px;
+                  text-indent:50px;
             }
-            .left{
-                  left:5px;
-                  top:275px;
-                  background-position:0 -80px;
+            [type="text"]{
+                  background:url(images/zhanghao.jpg) no-repeat 0 -2px;
             }
-            .right{
-                  right:5px;
-                  top:275px;
-                  background-position:0 -153px;
+            [type="checkbox"]{
+                  display:inline;
+                  vertical-align:middle;
             }
-            .left:hover,right:hover{
-                  background-color:rgba(0,0,0,0.5);
+            label{
+                  font-size:12px;
             }
-            .bottom{
-                  position:absolute;
-                  left:70px;
-                  bottom:-75px;
-                  width:800px;
-                  height:90px;
-                  padding:30px;
-                  background-color:rgba(0,0,0,0.6);
+            .reg{
+                  margin-left:20px;
+                  margin-top:-22px;
+                  text-align:center;
             }
-            .bottom h2{
-                  float:left;
-                  width:270px;
-                  height:60px;
-                  padding:10px 20px 10px 0;
-                  border-right:1px solid #FFF;
-                  font-family:"微软雅黑";
-                  font-weight:normal;
-                  font-size:22px;
+            .reg a{
+                  color:#999;
+                  font-size:12px;
+                  text-decoration:none;
             }
-            .bottom p{
-                  float:left;
-                  width:480px;
-                  height:60px;
-                  padding:10px 0 10px 20px;
+            .reg a:hover{
+                  color:#F00;
+                  text-decoration:underline;
+            }
+            [type="submit"]{
+                  width:255px;
+                  height:44px;
+                  margin:25px auto;
+                  background-image:url(images/but.jpg);
+                  background-repeat: no-repeat;
+                  border:none;
+            }
+            .related{
+                  width:330px;
+                  height:145px;
+                  background-color:#F5EAE8;
+                  border-top:1px solid #ddd;
+                  padding-top:20px;
+                  text-align:center;
                   font-size:14px;
-                  margin-bottom:-100px;
-            }
-            .foot{
-                  position:absolute;
-                  left:475px;
-                  bottom=-100px;
-                  width:50px;
-            }
-            .dot1,.dot2{
-                  float:left;
-                  width:9px;
-                  height:10px;
-                  margin-right:2px;
-                  background:url(images/3.png) no-repeat;
-            }
-            .dot1{
-                  background-position:-44px 0;
-            }
-            .dot2{
-                  background-position:-35px 0;
             }
     </style>
     </head>
     <body>
-          <div id="wrapper">
-          <div class="title">
-          <div class="title-img">
-          </div></div>
-          <div class="main">
-                <a href="#">
-                      <div class="left"></div>
-                </a>
-                <a href="#">
-                      <div class="right"></div>
-                </a>
-          <div class="bottom">
-                <h2>5分钟就能搞定的时髦派对妆 秒杀大红唇和烟熏眼</h2>
-                <p>红唇与烟熏妆曾是派对妆的标配，这个过时的规则早就该打破了。今年秋冬的彩妆流行是简洁时髦的美感：一抹亮片眼影，一个出其不意的眼线，一只镇住全场的唇膏。既然能花5分钟就能搞定的派对妆，为什么要花一个小时呢？</p>
-          </div>
-          <div class="foot">
-                <a href="#">
-                      <div class="dot1"></div>
-                </a>
-                <a href="#">
-                      <div class="dot2"></div>
-                </a>
-                <a href="#">
-                      <div class="dot2"></div>
-                </a>
-                <a href="#">
-                      <div class="dot2"></div>
-                </a>
-          </div>
-          </div>
+          <form action="" method="post" name="login">
+                <input type="text" name="user" placeholder="用户名/邮箱地址/手机号">
+                <input type="password" name="password" placeholder="填写密码">
+                <input type="checkbox" name="account" value="1" id="account">
+                <label for="account">记住密码</label>
+                <div class="reg">
+                      <a href="#">欢迎注册</a>
+                      <a href="#">忘记密码</a>
+                </div>
+                <input type="submit" name="submit" value="">
+          </form>
+          <div class="related">
+                合作网站账号登录:
+                <img src="images/weixin.png" alt="">
+                <img src="images/qqlogin.png" alt="">
+                <img src="images/taobao.png" alt="">
           </div>
     </body>
 </html>
