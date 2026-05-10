@@ -1,93 +1,31 @@
-<html>
-      <head>
-      <meta cahrset="utf-8">
-      <style type="text/css">
-            body,form{
-                  padding:0;
-                  margin:0;
-            }
-            body{
-                  background:url(images/dlbg.jpg) no-repeat center top;
-                  padding:50px 0 0 860px;
-            }
-            form{
-                  width:248px;
-                  height:220px;
-                  background-color:#F5EAE8;
-                  padding:30px 40px;
-                  border:1px solid #F5EAE8;
-            }
-            input{
-                  display:block;
-            }
-            [type="text"],[type="password"]{
-                  width:250px;
-                  height:38px;
-                  border:1px solid #CCC;
-                  margin-bottom:30px;
-                  font-size:16px;
-                  text-indent:50px;
-            }
-            [type="text"]{
-                  background:url(images/zhanghao.jpg) no-repeat 0 -2px;
-            }
-            [type="checkbox"]{
-                  display:inline;
-                  vertical-align:middle;
-            }
-            label{
-                  font-size:12px;
-            }
-            .reg{
-                  margin-left:20px;
-                  margin-top:-22px;
-                  text-align:center;
-            }
-            .reg a{
-                  color:#999;
-                  font-size:12px;
-                  text-decoration:none;
-            }
-            .reg a:hover{
-                  color:#F00;
-                  text-decoration:underline;
-            }
-            [type="submit"]{
-                  width:255px;
-                  height:44px;
-                  margin:25px auto;
-                  background-image:url(images/but.jpg);
-                  background-repeat: no-repeat;
-                  border:none;
-            }
-            .related{
-                  width:330px;
-                  height:145px;
-                  background-color:#F5EAE8;
-                  border-top:1px solid #ddd;
-                  padding-top:20px;
-                  text-align:center;
-                  font-size:14px;
-            }
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>minaro.cc</title>
+    <style>
+        body { background: #1a1a1a; color: #eee; font-family: sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .container { text-align: center; border: 1px solid #333; padding: 2rem; border-radius: 8px; background: #222; }
+        h1 { color: #00d4ff; }
+        .link-group { margin-top: 20px; }
+        a { color: #aaa; text-decoration: none; margin: 0 10px; border-bottom: 1px solid #444; transition: 0.3s; }
+        a:hover { color: #00d4ff; border-color: #00d4ff; }
+        .status { font-size: 0.8rem; color: #666; margin-top: 30px; }
     </style>
-    </head>
-    <body>
-          <form action="" method="post" name="login">
-                <input type="text" name="user" placeholder="用户名/邮箱地址/手机号">
-                <input type="password" name="password" placeholder="填写密码">
-                <input type="checkbox" name="account" value="1" id="account">
-                <label for="account">记住密码</label>
-                <div class="reg">
-                      <a href="#">欢迎注册</a>
-                      <a href="#">忘记密码</a>
-                </div>
-                <input type="submit" name="submit" value="">
-          </form>
-          <div class="related">
-                合作网站账号登录:
-                <img src="images/weixin.png" alt="">
-                <img src="images/qqlogin.png" alt="">
-                <img src="images/taobao.png" alt="">
-          </div>
-    </body>
+</head>
+<body>
+    <div class="container">
+        <h1>Minaro MINECRAFT SERVER</h1>
+        <p>基于 Purpur 1.21.11 的生存社区</p>
+        <div class="link-group">
+            <a href="https://map.minaro.cc:54460">卫星地图</a>
+            <a href="#">WIP</a>
+            <a href="#">WIP</a>
+        </div>
+        <div class="status">
+            服务器地址: mc.minaro.cc <br>
+            2026-  长线运行计划中
+        </div>
+    </div>
+</body>
 </html>
