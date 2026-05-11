@@ -40,7 +40,11 @@ mergeTranslations({
         "entry.kicker": "Server Address",
 
         "bulletin.kicker": "World Bulletin",
-        "bulletin.title": "世界公告",
+        "bulletin.title": "世界公告与日志",
+        "bulletin.seeAll": "See all >",
+        "bulletin.item.siteOnline": "Minaro 网站已上线。",
+        "bulletin.item.archiveStarted": "世界日志开始记录长期事件。",
+        "bulletin.item.railwayPlanning": "第一阶段铁路计划准备中。",
 
         "features.kicker": "World",
         "features.title": "这个世界的方向",
@@ -79,7 +83,11 @@ mergeTranslations({
         "entry.kicker": "Server Address",
 
         "bulletin.kicker": "World Bulletin",
-        "bulletin.title": "World Bulletin",
+        "bulletin.title": "World Bulletin & Log",
+        "bulletin.seeAll": "See all >",
+        "bulletin.item.siteOnline": "Minaro website is now online.",
+        "bulletin.item.archiveStarted": "World log has started recording long-term events.",
+        "bulletin.item.railwayPlanning": "The first railway plan is in preparation.",
 
         "features.kicker": "World",
         "features.title": "Direction of the World",
@@ -118,7 +126,11 @@ mergeTranslations({
         "entry.kicker": "Server Address",
 
         "bulletin.kicker": "World Bulletin",
-        "bulletin.title": "ワールド掲示板",
+        "bulletin.title": "ワールド掲示板とログ",
+        "bulletin.seeAll": "See all >",
+        "bulletin.item.siteOnline": "Minaro サイトが公開されました。",
+        "bulletin.item.archiveStarted": "ワールドログが長期的な出来事の記録を開始しました。",
+        "bulletin.item.railwayPlanning": "第一期鉄道計画を準備中です。",
 
         "features.kicker": "World",
         "features.title": "この世界の方向性",
