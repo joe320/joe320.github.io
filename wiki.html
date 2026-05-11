@@ -1,5 +1,287 @@
-<html>
-  <body>
-    1
-  </body>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Minaro Wiki</title>
+
+    <meta
+        name="description"
+        content="Minaro Wiki 是 Minaro Minecraft 世界的居民手册，记录规则、经济、铁路、建筑、死亡机制与公共制度。"
+    />
+
+    <meta property="og:title" content="Minaro Wiki" />
+    <meta
+        property="og:description"
+        content="Minaro 的居民手册与世界制度档案。"
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/wiki.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="menubar">
+            <div class="menubar-left">
+                <a href="/" class="brand">MINARO</a>
+
+                <div class="main-nav">
+                    <a href="/">首页</a>
+                    <a href="https://map.minaro.cc:54460" target="_blank" rel="noopener">地图</a>
+                    <a href="/wiki.html" class="active">Wiki</a>
+                </div>
+            </div>
+
+            <div class="language-switcher" aria-label="Language selector">
+                <button type="button" data-lang="zh" class="lang-btn active">中文</button>
+                <button type="button" data-lang="en" class="lang-btn">EN</button>
+                <button type="button" data-lang="ja" class="lang-btn">日本語</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="wiki-hero">
+            <div class="container">
+                <p class="eyebrow">Resident Handbook</p>
+                <h1 class="wiki-title">Minaro Wiki</h1>
+                <p class="wiki-intro">
+                    这里记录 Minaro 的基本规则、经济制度、建筑原则、铁路规划、死亡机制与公共生活方式。
+                    它不是一份冷冰冰的服务器说明书，而是这个世界的居民手册。
+                </p>
+            </div>
+        </section>
+
+        <section class="wiki-layout container">
+            <aside class="wiki-sidebar">
+                <div class="sidebar-card">
+                    <p class="sidebar-title">目录</p>
+
+                    <nav class="wiki-toc">
+                        <a href="#quick-start">快速开始</a>
+                        <a href="#principles">世界原则</a>
+                        <a href="#rules">基本规则</a>
+                        <a href="#economy">经济与货币</a>
+                        <a href="#protection">物品与建筑保护</a>
+                        <a href="#death">死亡机制</a>
+                        <a href="#railway">铁路与聚落</a>
+                        <a href="#plugins">插件说明</a>
+                    </nav>
+                </div>
+            </aside>
+
+            <article class="wiki-content">
+                <section class="wiki-section" id="quick-start">
+                    <p class="section-kicker">01</p>
+                    <h2>快速开始</h2>
+
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <span>服务器地址</span>
+                            <strong>mc.minaro.cc</strong>
+                            <button class="copy-btn small" data-copy="mc.minaro.cc">Copy</button>
+                        </div>
+
+                        <div class="info-card">
+                            <span>版本</span>
+                            <strong>Java 1.21.11</strong>
+                        </div>
+
+                        <div class="info-card">
+                            <span>地图</span>
+                            <strong>
+                                <a href="https://map.minaro.cc:54460" target="_blank" rel="noopener">
+                                    map.minaro.cc
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+
+                    <p>
+                        Minaro 是一个小型长期世界。这里更重视建筑、铁路、港口、钓鱼、酿酒、聚落与玩家之间的合作。
+                        如果你习惯快速毕业、极限刷资源或大型工业化，这里可能不是最适合你的地方。
+                    </p>
+                </section>
+
+                <section class="wiki-section" id="principles">
+                    <p class="section-kicker">02</p>
+                    <h2>世界原则</h2>
+
+                    <ul class="wiki-list">
+                        <li>距离应该有意义。铁路、道路、港口和补给点是世界的一部分。</li>
+                        <li>世界不是菜单。我们尽量避免过度依赖传送、GUI 商店和数字经济。</li>
+                        <li>建筑会留下时间痕迹。请尽量建设能被他人经过、使用和记住的地方。</li>
+                        <li>不鼓励极端工业化。公共体验、服务器稳定与世界氛围优先于效率。</li>
+                    </ul>
+                </section>
+
+                <section class="wiki-section" id="rules">
+                    <p class="section-kicker">03</p>
+                    <h2>基本规则</h2>
+
+                    <div class="rule-list">
+                        <div class="rule-row">
+                            <span>01</span>
+                            <div>
+                                <h3>尊重玩家</h3>
+                                <p>不骚扰、不歧视、不恶意攻击他人。这里是长期小社区，不是一次性战场。</p>
+                            </div>
+                        </div>
+
+                        <div class="rule-row">
+                            <span>02</span>
+                            <div>
+                                <h3>尊重建筑</h3>
+                                <p>未经允许，不破坏、不修改、不占用他人的建筑、仓库、商店或公共工程。</p>
+                            </div>
+                        </div>
+
+                        <div class="rule-row">
+                            <span>03</span>
+                            <div>
+                                <h3>禁止作弊与漏洞滥用</h3>
+                                <p>禁止外挂、复制漏洞、恶意卡服机器，以及破坏世界平衡的极端工业设施。</p>
+                            </div>
+                        </div>
+
+                        <div class="rule-row">
+                            <span>04</span>
+                            <div>
+                                <h3>保持公共通道开放</h3>
+                                <p>道路、铁路、河道、港口与公共设施应尽量保持通行，不随意封堵。</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="wiki-section" id="economy">
+                    <p class="section-kicker">04</p>
+                    <h2>经济与货币</h2>
+
+                    <p>
+                        Minaro 倾向使用实体物品作为交易媒介，而不是传统的余额数字经济。
+                        货币会占用空间，可以被运输、储存、交换，因此贸易会真正发生在地图中。
+                    </p>
+
+                    <div class="currency-grid">
+                        <div class="currency-card">
+                            <div class="currency-icon">🥔</div>
+                            <h3>港券</h3>
+                            <p>基础流通货币，使用毒马铃薯作为媒介。适合日常小额交易。</p>
+                        </div>
+
+                        <div class="currency-card">
+                            <div class="currency-icon">🐚</div>
+                            <h3>海券</h3>
+                            <p>高价值储值货币，使用鹦鹉螺壳作为媒介。适合大宗贸易和储值。</p>
+                        </div>
+                    </div>
+
+                    <div class="note">
+                        <strong>参考汇率：</strong>
+                        1 个鹦鹉螺壳 ≈ 32 个毒马铃薯。实际交易允许玩家自由议价。
+                    </div>
+                </section>
+
+                <section class="wiki-section" id="protection">
+                    <p class="section-kicker">05</p>
+                    <h2>物品与建筑保护</h2>
+
+                    <p>
+                        Minaro 不使用大范围地皮插件。世界保持连续开放，但私人物品需要被保护。
+                    </p>
+
+                    <ul class="wiki-list">
+                        <li>箱子、门、熔炉等容器可以使用锁定插件保护。</li>
+                        <li>建筑破坏和偷窃会通过 CoreProtect 查询并回滚。</li>
+                        <li>公共设施，例如道路、铁路、车站、港口，不应被私人封锁。</li>
+                        <li>建议玩家把贵重物品放入受保护容器，不要长期裸露堆放。</li>
+                    </ul>
+                </section>
+
+                <section class="wiki-section" id="death">
+                    <p class="section-kicker">06</p>
+                    <h2>死亡机制</h2>
+
+                    <p>
+                        Minaro 希望死亡有代价，但不会让一次失误摧毁玩家的长期积累。
+                    </p>
+
+                    <ul class="wiki-list">
+                        <li>死亡后会生成墓碑或死亡容器。</li>
+                        <li>玩家需要返回死亡地点回收遗物。</li>
+                        <li>不开放 <code>/back</code>，交通和救援应成为世界的一部分。</li>
+                        <li>岩浆和虚空死亡会根据插件设置尽量生成在最近安全位置。</li>
+                    </ul>
+                </section>
+
+                <section class="wiki-section" id="railway">
+                    <p class="section-kicker">07</p>
+                    <h2>铁路与聚落</h2>
+
+                    <p>
+                        铁路是 Minaro 的重要公共基础设施。它不仅用于移动，也用于连接聚落、贸易和共同记忆。
+                    </p>
+
+                    <ul class="wiki-list">
+                        <li>鼓励建设车站、港口、驿站、仓库和沿线聚落。</li>
+                        <li>未经许可不要拆改公共铁路和车站结构。</li>
+                        <li>聚落建设应尽量保留道路、出入口和公共空间。</li>
+                        <li>大型公共工程建议先在公告栏或 Discord 中提出计划。</li>
+                    </ul>
+                </section>
+
+                <section class="wiki-section" id="plugins">
+                    <p class="section-kicker">08</p>
+                    <h2>插件说明</h2>
+
+                    <div class="plugin-list">
+                        <div>
+                            <h3>ChestShop</h3>
+                            <p>用于地图内实体商店，支持玩家之间的物品交易。</p>
+                        </div>
+
+                        <div>
+                            <h3>Brewery</h3>
+                            <p>用于酿酒与地方特产，适合酒馆、聚会和聚落文化。</p>
+                        </div>
+
+                        <div>
+                            <h3>EvenMoreFish</h3>
+                            <p>增强钓鱼内容，让渔业和港口生活更有意义。</p>
+                        </div>
+
+                        <div>
+                            <h3>Graves</h3>
+                            <p>管理死亡后的物品回收，保留风险但降低挫败感。</p>
+                        </div>
+
+                        <div>
+                            <h3>Simple Voice Chat</h3>
+                            <p>附近语音，让车站、港口和探险更有临场感。</p>
+                        </div>
+
+                        <div>
+                            <h3>CoreProtect</h3>
+                            <p>用于日志查询、防熊和回滚，是长期世界的安全基础。</p>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Minaro</p>
+            <p class="muted">A small world, slowly built by its residents.</p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/app.js?v=3"></script>
+    <script src="./assets/js/wiki.js?v=1"></script>
+</body>
 </html>
