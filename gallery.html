@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+.css" />    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="menubar">
+            <div class="menubar-left">
+                <a href="/" class="brand">MINARO</a>
+
+                <div class="main-nav">
+                    <a href="/" data-i18n="nav.home">首页</a>
+                    <a href="https://map.minaro.cc:54460" target="_blank" rel="noopener" data-i18n="nav.map">地图</a>
+                    <a href="/wiki.html" data-i18n="nav.wiki">Wiki</a>
+                    <a href="/faq.html" data-i18n="nav.faq">FAQ</a>
+                    <a href="/blog.html" data-i18n="nav.blog">Blog</a>
+                    <a href="/gallery.html" class="active" data-i18n="nav.gallery">Gallery</a>
+                </div>
+            </div>
+
+            <div class="language-switcher" aria-label="Language selector">
+                <button type="button" data-lang="zh" class="lang-btn active">中文</button>
+                <button type="button" data-lang="en" class="lang-btn">EN</button>
+                <button type="button" data-lang="ja" class="lang-btn">日本語</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery-hero">
+            <div class="container">
+                <p class="eyebrow" data-i18n="gallery.hero.eyebrow">World Images</p>
+
+                <h1 class="gallery-title" data-i18n="gallery.hero.title">
+                    Minaro Gallery
+                </h1>
+
+                <p class="gallery-intro" data-i18n="gallery.hero.intro">
+                    这里会收录 Minaro 的港口、铁路、聚落、市场、灯塔与日常截图。
+                    它不是宣传图集，而是世界慢慢留下的影像档案。
+                </p>
+            </div>
+        </section>
+
+        <section class="gallery-section container">
+            <div class="gallery-grid">
+                <article class="gallery-card">
+                    <div class="image-placeholder">
+                        <img src="/gallery/harbor-night.jpg" alt="Harbor at night" />
+                    </div>
+
+                    <div class="gallery-card-body">
+                        <span data-i18n="gallery.type.harbor">港口</span>
+                        <h3 data-i18n="gallery.item.harborNight.title">雨夜港口</h3>
+                        <p data-i18n="gallery.item.harborNight.desc">
+                            预留图片位置。之后可替换为 Minaro 港区夜景。
+                        </p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="image-placeholder">
+                        <img src="/gallery/railway-station.jpg" alt="Railway station" />
+                    </div>
+
+                    <div class="gallery-card-body">
+                        <span data-i18n="gallery.type.railway">铁路</span>
+                        <h3 data-i18n="gallery.item.railwayStation.title">旧车站</h3>
+                        <p data-i18n="gallery.item.railwayStation.desc">
+                            预留图片位置。之后可替换为铁路车站或站台截图。
+                        </p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="image-placeholder">
+                        <img src="/gallery/lighthouse.jpg" alt="Lighthouse" />
+                    </div>
+
+                    <div class="gallery-card-body">
+                        <span data-i18n="gallery.type.landmark">地标</span>
+                        <h3 data-i18n="gallery.item.lighthouse.title">灯塔</h3>
+                        <p data-i18n="gallery.item.lighthouse.desc">
+                            预留图片位置。之后可替换为海岸灯塔或公共建筑截图。
+                        </p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="image-placeholder">
+                        <img src="/gallery/settlement.jpg" alt="Settlement" />
+                    </div>
+
+                    <div class="gallery-card-body">
+                        <span data-i18n="gallery.type.settlement">聚落</span>
+                        <h3 data-i18n="gallery.item.settlement.title">玩家聚落</h3>
+                        <p data-i18n="gallery.item.settlement.desc">
+                            预留图片位置。之后可替换为玩家村庄、市场或住宅区截图。
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Minaro</p>
+            <p class="muted" data-i18n="footer.text">
+                A small world, slowly built by its residents.
+            </p>
+        </div>
+    </footer>
+
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/gallery.js"></script>
+</body>
+</html>
+
+    <title>Minaro Gallery</title>
+
+    <meta
+        name="description"
+        content="Minaro Gallery 收录港口、铁路、聚落、市场、灯塔与世界日常的截图。"
+        data-i18n-content="gallery.meta.description"
+    />
+
+    <meta property="og:title" content="Minaro Gallery" />
+
+    <meta
+        property="og:description"
+        content="Minaro 的世界截图档案。"
+        data-i18n-content="gallery.meta.ogdescription"
+    />
+
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
