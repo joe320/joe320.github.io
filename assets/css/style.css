@@ -160,11 +160,47 @@ a {
     margin-bottom: 14px;
 }
 
-.hero h1 {
-    font-size: clamp(4rem, 13vw, 9rem);
-    line-height: 0.9;
-    letter-spacing: -0.07em;
-    margin-bottom: 28px;
+.hero-title {
+    position: relative;
+    display: inline-block;
+
+    font-family:
+        "Inter",
+        "Avenir Next",
+        "Helvetica Neue",
+        system-ui,
+        sans-serif;
+
+    font-size: clamp(4.8rem, 14vw, 10rem);
+    line-height: 0.85;
+    font-weight: 900;
+    letter-spacing: -0.085em;
+    text-transform: uppercase;
+
+    color: #e8ecef;
+
+    text-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.06),
+        0 24px 80px rgba(143, 191, 135, 0.16);
+
+    margin-bottom: 42px;
+}
+
+.hero-title::after {
+    content: "";
+    position: absolute;
+    left: 0.035em;
+    bottom: -0.18em;
+
+    width: 44%;
+    height: 4px;
+
+    border-radius: 999px;
+    background: linear-gradient(
+        90deg,
+        #8fbf87,
+        rgba(143, 191, 135, 0)
+    );
 }
 
 .hero-text {
