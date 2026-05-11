@@ -27,7 +27,9 @@ if (yearElement) {
 
 const translations = {
     zh: {
-        "meta.description": "",
+        "meta.description": "Minaro 是一个以原版生存、建筑、铁路、钓鱼、酿酒与慢生活为核心的小型硬核 Minecraft 世界。",
+        "meta.keywords": "Minecraft, Minaro, Minecraft 服务器, 生存, 铁路, 钓鱼, 酿酒",
+        "meta.ogdescription": "一个以原版生存、建筑、铁路、钓鱼、酿酒与慢生活为核心的小型硬核 Minecraft 世界。",
         "nav.home": "首页",
         "nav.map": "地图",
         "nav.wiki": "Wiki",
@@ -50,6 +52,9 @@ const translations = {
     },
 
     en: {
+        "meta.description": "Minaro is a small, hardcore Minecraft world centered around classic survival, building, railways, fishing, brewing, and a laid-back lifestyle.",
+        "meta.keywords": "Minecraft, Minaro, Minecraft Server, Survival, Railways, Fishing, Brewing",
+        "meta.ogdescription": "A small, hardcore Minecraft world centered around classic survival, building, railways, fishing, brewing, and a laid-back lifestyle.",
         "nav.home": "Home",
         "nav.map": "Map",
         "nav.wiki": "Wiki",
@@ -72,12 +77,15 @@ const translations = {
     },
 
     ja: {
+        "meta.description": "Minaroは、サバイバル、建築、鉄道、釣り、醸造、そしてスローライフを核とした、小規模でハードコアなMinecraftワールドです。",
+        "meta.keywords": "Minecraft, Minaro, Minecraft サーバー、サバイバル、鉄道、釣り、醸造",
+        "meta.ogdescription": "サバイバル、建築、鉄道、釣り、醸造、そしてスローライフを核とした、小規模でハードコアなMinecraftワールドです。",
         "nav.home": "ホーム",
         "nav.map": "地図",
         "nav.wiki": "Wiki",
 
         "hero.eyebrow": "Eastern Coastal World",
-        "hero.text": "Minaro は、サバイバル、建築、鉄道、釣り、醸造、そしてゆっくりとした暮らしを中心にした小さな Minecraft の世界です。短期的に消費するサーバーではなく、時間とともに痕跡が残っていく場所です。",
+        "hero.text": "Minaroは、サバイバル、建築、鉄道、釣り、醸造、そしてスローライフを核とした、小規模でハードコアなMinecraftワールドです。短期的に消費するサーバーではなく、時間とともに痕跡が残っていく場所です。",
         "hero.join": "参加する",
         "hero.map": "ワールドマップ",
 
