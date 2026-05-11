@@ -21,7 +21,7 @@ mergeTranslations({
         "nav.home": "首页",
         "nav.map": "地图",
         "nav.wiki": "Wiki",
-
+        "nav.faq": "FAQ",
         "button.copy": "Copy",
         "button.copied": "Copied!",
         "button.copyFailed": "Copy failed",
@@ -54,6 +54,7 @@ mergeTranslations({
         "nav.home": "Home",
         "nav.map": "Map",
         "nav.wiki": "Wiki",
+        "nav.faq": "FAQ",
 
         "button.copy": "Copy",
         "button.copied": "Copied!",
@@ -87,6 +88,7 @@ mergeTranslations({
         "nav.home": "ホーム",
         "nav.map": "地図",
         "nav.wiki": "Wiki",
+        "nav.faq": "FAQ",
 
         "button.copy": "コピー",
         "button.copied": "コピーしました",
