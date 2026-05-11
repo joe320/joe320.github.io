@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Minaro Blog</title>
+
+    <meta
+        name="description"
+        content="Minaro Blog 记录服务器公告、世界日志、铁路建设、聚落变化与长期事件。"
+        data-i18n-content="blog.meta.description"
+    />
+
+    <meta property="og:title" content="Minaro Blog" />
+
+    <meta
+        property="og:description"
+        content="Minaro 的世界公告与长期日志归档。"
+        data-i18n-content="blog.meta.ogdescription"
+    />
+
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/blog.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="menubar">
+            <div class="menubar-left">
+                <a href="/" class="brand">MINARO</a>
+
+                <div class="main-nav">
+                    <a href="/" data-i18n="nav.home">首页</a>
+                    <a href="https://map.minaro.cc:54460" target="_blank" rel="noopener" data-i18n="nav.map">地图</a>
+                    <a href="/wiki.html" data-i18n="nav.wiki">Wiki</a>
+                    <a href="/faq.html" data-i18n="nav.faq">FAQ</a>
+                    <a href="/blog.html" class="active" data-i18n="nav.blog">Blog</a>
+                    <a href="/gallery.html" data-i18n="nav.gallery">Gallery</a>
+                </div>
+            </div>
+
+            <div class="language-switcher" aria-label="Language selector">
+                <button type="button" data-lang="zh" class="lang-btn active">中文</button>
+                <button type="button" data-lang="en" class="lang-btn">EN</button>
+                <button type="button" data-lang="ja" class="lang-btn">日本語</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-hero">
+            <div class="container">
+                <p class="eyebrow" data-i18n="blog.hero.eyebrow">World Archive</p>
+
+                <h1 class="blog-title" data-i18n="blog.hero.title">
+                    Minaro Blog
+                </h1>
+
+                <p class="blog-intro" data-i18n="blog.hero.intro">
+                    这里记录 Minaro 的公告、铁路进度、聚落变化、经济调整与世界事件。
+                    它不是新闻站，而是这个世界慢慢留下的时间痕迹。
+                </p>
+            </div>
+        </section>
+
+        <section class="blog-layout container">
+            <aside class="blog-sidebar">
+                <div class="blog-sidebar-card">
+                    <p class="sidebar-title" data-i18n="blog.sidebar.title">分类</p>
+
+                    <nav class="blog-toc">
+                        <a href="#announcements" data-i18n="blog.toc.announcements">公告</a>
+                        <a href="#world-log" data-i18n="blog.toc.worldLog">世界日志</a>
+                        <a href="#railway" data-i18n="blog.toc.railway">铁路记录</a>
+                        <a href="#settlements" data-i18n="blog.toc.settlements">聚落记录</a>
+                    </nav>
+                </div>
+            </aside>
+
+            <article class="blog-content">
+                <section class="blog-section" id="announcements">
+                    <div class="section-heading compact">
+                        <p class="section-kicker">01</p>
+                        <h2 data-i18n="blog.announcements.title">公告</h2>
+                    </div>
+
+                    <article class="blog-post">
+                        <div class="post-meta">
+                            <span>2026.05.08</span>
+                            <span data-i18n="blog.type.announcement">公告</span>
+                        </div>
+
+                        <h3 data-i18n="blog.post.siteOnline.title">
+                            Minaro 网站上线
+                        </h3>
+
+                        <p data-i18n="blog.post.siteOnline.desc">
+                            Minaro 的网站入口已经上线。首页将展示服务器地址、状态、公告、地图入口与世界方向。
+                        </p>
+                    </article>
+
+                    <article class="blog-post">
+                        <div class="post-meta">
+                            <span>2026.05.08</span>
+                            <span data-i18n="blog.type.announcement">公告</span>
+                        </div>
+
+                        <h3 data-i18n="blog.post.wikiOnline.title">
+                            Wiki 与 FAQ 页面开始整理
+                        </h3>
+
+                        <p data-i18n="blog.post.wikiOnline.desc">
+                            Wiki 将记录服务器制度，FAQ 将回答新人常见问题。后续规则、经济和交通制度会持续更新。
+                        </p>
+                    </article>
+                </section>
+
+                <section class="blog-section" id="world-log">
+                    <div class="section-heading compact">
+                        <p class="section-kicker">02</p>
+                        <h2 data-i18n="blog.worldLog.title">世界日志</h2>
+                    </div>
+
+                    <article class="blog-post">
+                        <div class="post-meta">
+                            <span>2026.05.08</span>
+                            <span data-i18n="blog.type.worldLog">世界日志</span>
+                        </div>
+
+                        <h3 data-i18n="blog.post.firstArchive.title">
+                            第一份世界档案建立
+                        </h3>
+
+                        <p data-i18n="blog.post.firstArchive.desc">
+                            Minaro 开始记录长期事件。铁路、港口、聚落、货币和公共工程都会逐步成为世界历史的一部分。
+                        </p>
+                    </article>
+                </section>
+
+                <section class="blog-section" id="railway">
+                    <div class="section-heading compact">
+                        <p class="section-kicker">03</p>
+                        <h2 data-i18n="blog.railway.title">铁路记录</h2>
+                    </div>
+
+                    <article class="blog-post muted-post">
+                        <div class="post-meta">
+                            <span>Planning</span>
+                            <span data-i18n="blog.type.railway">铁路</span>
+                        </div>
+
+                        <h3 data-i18n="blog.post.railwayPlanning.title">
+                            第一阶段铁路计划准备中
+                        </h3>
+
+                        <p data-i18n="blog.post.railwayPlanning.desc">
+                            未来这里将记录线路规划、车站建设、通车事件与公共工程进度。
+                        </p>
+                    </article>
+                </section>
+
+                <section class="blog-section" id="settlements">
+                    <div class="section-heading compact">
+                        <p class="section-kicker">04</p>
+                        <h2 data-i18n="blog.settlements.title">聚落记录</h2>
+                    </div>
+
+                    <article class="blog-post muted-post">
+                        <div class="post-meta">
+                            <span>Planning</span>
+                            <span data-i18n="blog.type.settlement">聚落</span>
+                        </div>
+
+                        <h3 data-i18n="blog.post.settlementArchive.title">
+                            聚落档案将逐步建立
+                        </h3>
+
+                        <p data-i18n="blog.post.settlementArchive.desc">
+                            当玩家建立港口、村庄、车站或市场时，这里会记录它们的名字、位置与故事。
+                        </p>
+                    </article>
+                </section>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Minaro</p>
+            <p class="muted" data-i18n="footer.text">
+                A small world, slowly built by its residents.
+            </p>
+        </div>
+    </footer>
+
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/blog.js"></script>
+</body>
+</html>
