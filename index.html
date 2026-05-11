@@ -154,23 +154,6 @@
         </div>
     </footer>
     
-    <script>
-        function copyToClipboard(text) {
-            const el = document.createElement('textarea');
-            el.value = text;
-            document.body.appendChild(el);
-            el.select();
-            document.execCommand('copy');
-            document.body.removeChild(el);
-            
-            const copyBtn = document.querySelector('.copy-btn');
-            const originalText = copyBtn.textContent;
-            copyBtn.textContent = 'Copied!';
-            
-            setTimeout(() => {
-                copyBtn.textContent = originalText;
-            }, 2000);
-        }
-    </script>
+   <script src="assets/js/app.js"></script>
 </body>
 </html>
