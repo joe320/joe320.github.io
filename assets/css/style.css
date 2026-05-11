@@ -471,6 +471,38 @@ a {
     transform: translateY(0);
 }
 
+.entry-main {
+    min-width: 0;
+}
+
+.status-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.status-pill {
+    display: inline-flex;
+    align-items: center;
+    min-height: 30px;
+    padding: 0 12px;
+    border-radius: 999px;
+
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border);
+
+    color: var(--muted);
+    font-size: 0.84rem;
+    font-weight: 800;
+}
+
+.status-online {
+    color: #8fbf87;
+    border-color: rgba(143, 191, 135, 0.35);
+    background: rgba(143, 191, 135, 0.12);
+}
+
 /* =========================
    Motion System
    ========================= */
