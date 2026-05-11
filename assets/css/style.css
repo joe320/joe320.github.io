@@ -159,12 +159,13 @@ a {
     letter-spacing: 0.18em;
     text-transform: uppercase;
     margin-bottom: 14px;
+    animation: fadeInUp 0.7s ease both;
 }
 
 .hero-title {
     position: relative;
     display: inline-block;
-
+    animation: fadeInLeft 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
     font-family:
         "Inter",
         "Avenir Next",
@@ -209,12 +210,16 @@ a {
     color: var(--muted);
     font-size: clamp(1rem, 2vw, 1.25rem);
     margin-bottom: 34px;
+    animation: fadeInUp 0.8s ease both;
+    animation-delay: 0.18s;
 }
 
 .hero-actions {
     display: flex;
     flex-wrap: wrap;
     gap: 14px;
+    animation: fadeInUp 0.8s ease both;
+    animation-delay: 0.32s;
 }
 
 .button,
@@ -447,5 +452,60 @@ a {
     .footer-inner {
         align-items: flex-start;
         flex-direction: column;
+    }
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* =========================
+   Motion System
+   ========================= */
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-36px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes softReveal {
+    from {
+        opacity: 0;
+        filter: blur(8px);
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
     }
 }
