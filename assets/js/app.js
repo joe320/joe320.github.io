@@ -103,6 +103,12 @@ const translations = {
 };
 
 function getTranslation(obj, path) {
+    if (!obj || !path) return undefined;
+
+    if (Object.prototype.hasOwnProperty.call(obj, path)) {
+        return obj[path];
+    }
+
     return path.split(".").reduce((acc, part) => {
         return acc && acc[part];
     }, obj);
@@ -113,17 +119,18 @@ function setLanguage(lang) {
 
     document.querySelectorAll("[data-i18n]").forEach((element) => {
         const key = element.dataset.i18n;
-        
         const translation = getTranslation(dictionary, key);
-        if (translation) {
+
+        if (translation !== undefined) {
             element.textContent = translation;
-        }    
+        }
     });
 
     document.querySelectorAll("[data-i18n-content]").forEach((element) => {
         const key = element.dataset.i18nContent;
         const translation = getTranslation(dictionary, key);
-        if (translation) {
+
+        if (translation !== undefined) {
             element.setAttribute("content", translation);
         }
     });
