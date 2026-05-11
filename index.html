@@ -1,159 +1,226 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Minaro</title>
-    <meta name="description" content="原版生存 | 建筑 | 酿酒 | 钓鱼 | 合作 | 硬核 | 铁路">
-    <meta name="keywords" content="minecraft, server, Minaro, multiplayer, gaming">
-    <meta property="og:title" content="Minaro">
-    <meta property="og:description" content="原版生存 | 建筑 | 酿酒 | 钓鱼 | 合作 | 硬核 | 铁路">
-    <meta property="og:type" content="website">
-	<link rel="stylesheet" href="assets/css/style.css" />
+
+    <meta
+        name="description"
+        content="Minaro 是一个以原版生存、建筑、铁路、钓鱼、酿酒与慢生活为核心的小型 Minecraft 世界。"
+    />
+
+    <meta
+        name="keywords"
+        content="Minecraft, Minaro, Minecraft Server, Survival, Railway, Fishing, Brewing"
+    />
+
+    <meta property="og:title" content="Minaro" />
+    <meta
+        property="og:description"
+        content="一个以原版生存、建筑、铁路、钓鱼、酿酒与慢生活为核心的小型 Minecraft 世界。"
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h1 class="server-title">Minaro</h1>
-            <p class="server-subtitle">一个以原版生存、建筑、酿酒、钓鱼、合作与铁路为核心的慢节奏硬核世界。</p>
-        </div>
+    <header class="site-header">
+        <nav class="nav container">
+            <a class="logo" href="/">MINARO</a>
+
+            <div class="nav-links">
+                <a href="#entry">Join</a>
+                <a href="#bulletin">Bulletin</a>
+                <a href="#features">World</a>
+                <a href="#rules">Rules</a>
+            </div>
+        </nav>
     </header>
-    
-    <section class="banner-section">
-        <div class="container">
-            <!-- 服务器按钮 -->
-            <div class="server-banner-container">
-                <a href="https://map.minaro.cc:54460">卫星地图</a>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <p class="eyebrow">Eastern Coastal World</p>
+
+                <h1>Minaro</h1>
+
+                <p class="hero-text">
+                    一个以原版生存、建筑、铁路、钓鱼、酿酒与慢生活为核心的小型 Minecraft 世界。
+                    这里不是快餐服务器，而是一片会慢慢留下痕迹的地方。
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button primary" href="#entry">进入世界</a>
+                    <a
+                        class="button secondary"
+                        href="https://map.minaro.cc:54460"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        世界地图
+                    </a>
+                </div>
             </div>
-            
-            <!-- IP地址显示部分 -->
-            <div class="server-address">
-                <span class="address-text">mc.minaro.cc</span>
-                <button class="copy-btn" onclick="copyToClipboard('mc.minaro.cc')">Copy IP</button>
+        </section>
+
+        <section class="entry-section" id="entry">
+            <div class="container">
+                <div class="entry-card">
+                    <div>
+                        <p class="section-kicker">Server Address</p>
+                        <h2>mc.minaro.cc</h2>
+                        <p class="muted">
+                            Minecraft Java Edition · 1.21.11
+                        </p>
+                    </div>
+
+                    <button class="copy-btn" data-copy="mc.minaro.cc">
+                        Copy IP
+                    </button>
+                </div>
             </div>
-            
-            <!-- 服务器信息容器 -->
-            <div class="server-info-container">
-                <div class='server-version'>Minecraft Java 1.21.11</div>
+        </section>
+
+        <section class="bulletin-section" id="bulletin">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-kicker">World Bulletin</p>
+                    <h2>世界公告</h2>
+                </div>
+
+                <div class="bulletin-list">
+                    <article class="bulletin-item">
+                        <span class="bulletin-date">2026.05.08</span>
+                        <p>Minaro 网站已上线。</p>
+                    </article>
+
+                    <article class="bulletin-item">
+                        <span class="bulletin-date">2026.05.08</span>
+                        <p>港区正在准备第一阶段铁路与聚落规划。</p>
+                    </article>
+
+                    <article class="bulletin-item">
+                        <span class="bulletin-date">2026.05.08</span>
+                        <p>世界地图入口已开放。</p>
+                    </article>
+                </div>
             </div>
-            
-            
-        </div>
-    </section>
-	
-    <section class="bulletin-section">
-    <div class="container">
-        <h2 class="section-title">World Bulletin</h2>
-        <div class="bulletin-list">
-            <article class="bulletin-item">
-                <span class="bulletin-date">2026.05.08</span>
-                <p>Minaro website is now online.</p>
-            </article>
-            <article class="bulletin-item">
-                <span class="bulletin-date">2026.05.08</span>
-                <p>Harbor authority is preparing the first railway plan.</p>
-            </article>
-        </div>
-    </div>
-	</section>
-	
-    <section class="features-section">
-        <div class="container">
-            <h2 class="section-title">Server Features</h2>
-            
-            <ul class="server-features">
-                <li class="server-feature">Survival</li>
-				<li class="server-feature">Building</li>
-				<li class="server-feature">Railway</li>
-				<li class="server-feature">Fishing</li>
-				<li class="server-feature">Brewing</li>
-            </ul>
-            
-            <div class="features-grid">
-                <div class="feature-card">
-    				<div class="feature-icon">🌊</div>
-    				<h3 class="feature-title">Coastal World</h3>
-    				<p>A small world centered around harbor life, railway travel and quiet survival.</p>
-				</div>
+        </section>
 
-				<div class="feature-card">
-    				<div class="feature-icon">🚂</div>
-    				<h3 class="feature-title">Railway First</h3>
-    				<p>Distance matters. Roads, stations and railways are part of the world.</p>
-				</div>
+        <section class="features-section" id="features">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-kicker">World</p>
+                    <h2>这个世界的方向</h2>
+                </div>
 
-				<div class="feature-card">
-    				<div class="feature-icon">🎣</div>
-    				<h3 class="feature-title">Fishing & Brewing</h3>
-    				<p>Fishing, brewing and local trade create small everyday stories.</p>
-				</div>
+                <div class="tags">
+                    <span>原版生存</span>
+                    <span>建筑</span>
+                    <span>铁路</span>
+                    <span>钓鱼</span>
+                    <span>酿酒</span>
+                    <span>小社区</span>
+                </div>
 
-				<div class="feature-card">
-    				<div class="feature-icon">🏘️</div>
-    				<h3 class="feature-title">Player Settlements</h3>
-    				<p>Players build homes, shops, stations and settlements that remain over time.</p>
-				</div>
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <div class="feature-icon">🌊</div>
+                        <h3>沿海世界</h3>
+                        <p>
+                            Minaro 以港口、海岸、灯塔与聚落为主要意象，适合慢慢建设、旅行与停留。
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">🚂</div>
+                        <h3>铁路优先</h3>
+                        <p>
+                            距离应该有意义。道路、车站、铁路线与港口会成为世界的一部分。
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">🎣</div>
+                        <h3>渔业与酿酒</h3>
+                        <p>
+                            钓鱼、酿酒、交易与地方特产会构成小型社区的日常生活。
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">🏘️</div>
+                        <h3>玩家聚落</h3>
+                        <p>
+                            玩家可以建设住宅、商店、仓库、车站与公共设施，并让它们长期留下。
+                        </p>
+                    </article>
+                </div>
             </div>
-        </div>
-    </section>
-    
-    <section class="rules-section">
-    <div class="container">
-        <h2 class="section-title">Server Rules</h2>
-        	<div class="rule-item">
-    			<span class="rule-number">1</span>
-    			<div class="rule-content">
-        			<h3>Respect the World</h3>
-        			<p>Do not destroy, steal, grief or alter other players' builds without permission.</p>
-    			</div>
-			</div>
+        </section>
 
-			<div class="rule-item">
-    			<span class="rule-number">2</span>
-    			<div class="rule-content">
-        			<h3>Keep Public Paths Open</h3>
-        			<p>Do not block roads, railways, rivers, ports or other shared infrastructure.</p>
-    			</div>
-			</div>
+        <section class="rules-section" id="rules">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-kicker">Rules</p>
+                    <h2>基本规则</h2>
+                </div>
 
-			<div class="rule-item">
-    			<span class="rule-number">3</span>
-    			<div class="rule-content">
-        			<h3>No Exploits or Industrial Abuse</h3>
-        			<p>Cheats, duplication, extreme lag machines and destructive farms are not allowed.</p>
-    			</div>
-			</div>
+                <div class="rules-grid">
+                    <article class="rule-card">
+                        <span>01</span>
+                        <div>
+                            <h3>尊重玩家</h3>
+                            <p>
+                                不骚扰、不歧视、不恶意攻击他人。这里是长期小社区，不是一次性战场。
+                            </p>
+                        </div>
+                    </article>
 
-			<div class="rule-item">
-    			<span class="rule-number">4</span>
-   	 			<div class="rule-content">
-        			<h3>Build with Care</h3>
-        			<p>Minaro is a long-term world. Leave things that others can live with, visit and remember.</p>
-    			</div>
-			</div>
-        </div>
-    </div>
-</section>
-    
-    
-    
-    
-    
-    
-    
-    <footer>
-        <div class="container">
-            <div class="footer-links">
-                <a href="#">Rules</a>
-                <a href="#">Vote</a>
-                <a href="#">Donate</a>
-                <a href="#">Contact</a>
+                    <article class="rule-card">
+                        <span>02</span>
+                        <div>
+                            <h3>尊重建筑</h3>
+                            <p>
+                                未经允许，不破坏、不修改、不占用他人的建筑、仓库、商店或公共工程。
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="rule-card">
+                        <span>03</span>
+                        <div>
+                            <h3>禁止作弊与漏洞滥用</h3>
+                            <p>
+                                禁止外挂、复制漏洞、恶意卡服机器，以及破坏世界平衡的极端工业设施。
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="rule-card">
+                        <span>04</span>
+                        <div>
+                            <h3>保持公共通道开放</h3>
+                            <p>
+                                道路、铁路、河道、港口与公共设施应尽量保持通行，不随意封堵。
+                            </p>
+                        </div>
+                    </article>
+                </div>
             </div>
-            
-            <p class="copyright">&copy; 2026 Minaro - All rights reserved</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Minaro</p>
+            <p class="muted">A small world, slowly built by its residents.</p>
         </div>
     </footer>
-    
-   <script src="assets/js/app.js"></script>
+
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
