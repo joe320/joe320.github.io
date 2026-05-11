@@ -27,6 +27,7 @@ if (yearElement) {
 
 const translations = {
     zh: {
+        "meta.description": "",
         "nav.home": "首页",
         "nav.map": "地图",
         "nav.wiki": "Wiki",
@@ -101,6 +102,14 @@ function setLanguage(lang) {
 
         if (dictionary[key]) {
             element.textContent = dictionary[key];
+        }
+    });
+
+    document.querySelectorAll("[data-i18n-content]").forEach((element) => {
+        const key = element.dataset.i18nContent;
+        const translation = getTranslation(dictionary, key);
+        if (translation) {
+            element.setAttribute("content", translation);
         }
     });
 
