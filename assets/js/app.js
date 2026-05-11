@@ -29,27 +29,27 @@ mergeTranslations({
         "button.copied": "复制成功!",
         "button.copyFailed": "复制失败，请刷新重试",
         
-        "status.online": "Online",
-        "status.phase": "Preparation Phase",
+        "status.online": "在线",
+        "status.phase": "准备阶段",
 
         "hero.eyebrow": "Eastern Coastal World",
-        "hero.text": "一个以原版生存、建筑、铁路、钓鱼、酿酒与慢生活为核心的小型 Minecraft 世界。这里不是快餐服务器，而是一片会慢慢留下痕迹的地方。",
+        "hero.text": "一个以原版生存、建筑、铁路、钓鱼、酿酒与慢生活为核心的小型硬核 Minecraft 世界。",
         "hero.join": "进入世界",
         "hero.map": "世界地图",
 
-        "entry.kicker": "Server Address",
+        "entry.kicker": "服务器地址",
 
-        "bulletin.kicker": "World Bulletin",
-        "bulletin.title": "世界公告与日志",
+        "bulletin.kicker": "世界公告",
+        "bulletin.title": "公告与日志",
         "bulletin.seeAll": "See all >",
         "bulletin.item.siteOnline": "Minaro 网站已上线。",
         "bulletin.item.archiveStarted": "世界日志开始记录长期事件。",
         "bulletin.item.railwayPlanning": "第一阶段铁路计划准备中。",
 
-        "features.kicker": "World",
-        "features.title": "这个世界的方向",
+        "features.kicker": "世界发展模式",
+        "features.title": "发展模式",
 
-        "rules.kicker": "Rules",
+        "rules.kicker": "规则",
         "rules.title": "基本规则",
 
         "footer.text": "A small world, slowly built by its residents."
