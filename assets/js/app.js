@@ -22,6 +22,9 @@ mergeTranslations({
         "nav.map": "地图",
         "nav.wiki": "Wiki",
         "nav.faq": "FAQ",
+        "nav.blog": "Blog",
+        "nav.gallery": "Gallery",
+
         "button.copy": "Copy",
         "button.copied": "Copied!",
         "button.copyFailed": "Copy failed",
@@ -55,6 +58,8 @@ mergeTranslations({
         "nav.map": "Map",
         "nav.wiki": "Wiki",
         "nav.faq": "FAQ",
+        "nav.blog": "Blog",
+        "nav.gallery": "Gallery",
 
         "button.copy": "Copy",
         "button.copied": "Copied!",
@@ -89,6 +94,8 @@ mergeTranslations({
         "nav.map": "地図",
         "nav.wiki": "Wiki",
         "nav.faq": "FAQ",
+        "nav.blog": "Blog",
+        "nav.gallery": "Gallery",
 
         "button.copy": "コピー",
         "button.copied": "コピーしました",
