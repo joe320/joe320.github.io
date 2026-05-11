@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minaro</title>
-    <meta name="description" content="原版生存 | 建筑 | 酿酒 | 钓鱼 | 合作 | 养老 | 铁路">
+    <meta name="description" content="原版生存 | 建筑 | 酿酒 | 钓鱼 | 合作 | 硬核 | 铁路">
     <meta name="keywords" content="minecraft, server, Minaro, multiplayer, gaming">
     <meta property="og:title" content="Minaro">
-    <meta property="og:description" content="原版生存 | 建筑 | 酿酒 | 钓鱼 | 合作 | 养老 | 铁路">
+    <meta property="og:description" content="原版生存 | 建筑 | 酿酒 | 钓鱼 | 合作 | 硬核 | 铁路">
     <meta property="og:type" content="website">
     <style>
         :root {
-            --primary-color: #4c8c2b;
-            --secondary-color: #386c20;
-            --accent-color: #8bc34a;
-            --bg-color: #1e1e1e;
-            --text-color: #ffffff;
+            --primary-color: #7fa37a;
+    		--secondary-color: #5f7f61;
+    		--accent-color: #b6d58a;
+    		--bg-color: #111418;
+    		--panel-color: rgba(255, 255, 255, 0.05);
+    		--text-color: #e8e8e8;
+    		--muted-color: #9a9a9a;
         }
         
         * {
@@ -45,19 +47,17 @@
             position: relative;
         }
         
-        header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url('#');
-            background-size: cover;
-            background-position: center;
-            opacity: 0.3;
-            z-index: -1;
-        }
+        
+		header::before {
+    		content: '';
+    		position: absolute;
+    		inset: 0;
+    		background-image: url('#');
+    		background-size: cover;
+    		background-position: center;
+    		opacity: 0.25;
+    		z-index: -1;
+		}
         
         .server-title {
             font-size: 3rem;
@@ -534,14 +534,36 @@
         }
         
         /* 用户自定义CSS */
-        
+		.bulletin-section {
+    		padding: 50px 0;
+		}
+
+		.bulletin-list {
+    		max-width: 700px;
+   			margin: 0 auto;
+		}
+
+		.bulletin-item {
+    		border-left: 2px solid var(--primary-color);
+    		padding: 12px 0 12px 18px;
+    		margin-bottom: 16px;
+    		background-color: rgba(255, 255, 255, 0.03);
+		}
+
+		.bulletin-date {
+    		color: var(--accent-color);
+    		font-size: 0.9rem;
+    		display: block;
+    		margin-bottom: 4px;
+		}
+		
     </style>
 </head>
 <body>
     <header>
         <div class="container">
             <h1 class="server-title">Minaro</h1>
-            <p class="server-subtitle">原版生存 | 建筑 | 酿酒 | 钓鱼 | 合作 | 养老 | 铁路</p>
+            <p class="server-subtitle">一个以原版生存、建筑、酿酒、钓鱼、合作与铁路为核心的慢节奏硬核世界。</p>
         </div>
     </header>
     
@@ -560,45 +582,65 @@
             
             <!-- 服务器信息容器 -->
             <div class="server-info-container">
-                <div class='server-version'>Version: 1.21.11</div>
+                <div class='server-version'>Minecraft Java 1.21.11</div>
             </div>
             
             
         </div>
     </section>
-    
+	
+    <section class="bulletin-section">
+    <div class="container">
+        <h2 class="section-title">World Bulletin</h2>
+        <div class="bulletin-list">
+            <article class="bulletin-item">
+                <span class="bulletin-date">2026.05.08</span>
+                <p>Minaro website is now online.</p>
+            </article>
+            <article class="bulletin-item">
+                <span class="bulletin-date">2026.05.08</span>
+                <p>Harbor authority is preparing the first railway plan.</p>
+            </article>
+        </div>
+    </div>
+	</section>
+	
     <section class="features-section">
         <div class="container">
             <h2 class="section-title">Server Features</h2>
             
             <ul class="server-features">
-                <li class="server-feature">Survival</li><li class="server-feature">Roleplay</li>
+                <li class="server-feature">Survival</li>
+				<li class="server-feature">Building</li>
+				<li class="server-feature">Railway</li>
+				<li class="server-feature">Fishing</li>
+				<li class="server-feature">Brewing</li>
             </ul>
             
             <div class="features-grid">
                 <div class="feature-card">
-                    <div class="feature-icon">🏠</div>
-                    <h3 class="feature-title">Friendly Community</h3>
-                    <p>Join our welcoming community of Minecraft players!</p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">🛡️</div>
-                    <h3 class="feature-title">Active Staff</h3>
-                    <p>Our team is always available to help and ensure fair play.</p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">🚀</div>
-                    <h3 class="feature-title">Regular Updates</h3>
-                    <p>We keep our server updated with the latest Minecraft features.</p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">🌐</div>
-                    <h3 class="feature-title">Stable Performance</h3>
-                    <p>Enjoy smooth gameplay with minimal lag and downtime.</p>
-                </div>
+    				<div class="feature-icon">🌊</div>
+    				<h3 class="feature-title">Coastal World</h3>
+    				<p>A small world centered around harbor life, railway travel and quiet survival.</p>
+				</div>
+
+				<div class="feature-card">
+    				<div class="feature-icon">🚂</div>
+    				<h3 class="feature-title">Railway First</h3>
+    				<p>Distance matters. Roads, stations and railways are part of the world.</p>
+				</div>
+
+				<div class="feature-card">
+    				<div class="feature-icon">🎣</div>
+    				<h3 class="feature-title">Fishing & Brewing</h3>
+    				<p>Fishing, brewing and local trade create small everyday stories.</p>
+				</div>
+
+				<div class="feature-card">
+    				<div class="feature-icon">🏘️</div>
+    				<h3 class="feature-title">Player Settlements</h3>
+    				<p>Players build homes, shops, stations and settlements that remain over time.</p>
+				</div>
             </div>
         </div>
     </section>
@@ -606,35 +648,37 @@
     <section class="rules-section">
     <div class="container">
         <h2 class="section-title">Server Rules</h2>
-        <div class="rules-container">
-                        <div class="rule-item">
-                <span class="rule-number">1</span>
-                <div class="rule-content">
-                    <h3>Respect All Players</h3>
-                    <p>Be kind and respectful to all players. Harassment, discrimination, and offensive language are not tolerated.</p>
-                </div>
-            </div>
-            <div class="rule-item">
-                <span class="rule-number">2</span>
-                <div class="rule-content">
-                    <h3>No Griefing</h3>
-                    <p>Do not destroy or modify other players' builds without permission.</p>
-                </div>
-            </div>
-            <div class="rule-item">
-                <span class="rule-number">3</span>
-                <div class="rule-content">
-                    <h3>No Cheating</h3>
-                    <p>Hacking, exploiting glitches, or using mods that give unfair advantages are prohibited.</p>
-                </div>
-            </div>
-            <div class="rule-item">
-                <span class="rule-number">4</span>
-                <div class="rule-content">
-                    <h3>Follow Staff Instructions</h3>
-                    <p>Listen to and respect the server staff. They are here to help and ensure everyone has a good time.</p>
-                </div>
-            </div>
+        	<div class="rule-item">
+    			<span class="rule-number">1</span>
+    			<div class="rule-content">
+        			<h3>Respect the World</h3>
+        			<p>Do not destroy, steal, grief or alter other players' builds without permission.</p>
+    			</div>
+			</div>
+
+			<div class="rule-item">
+    			<span class="rule-number">2</span>
+    			<div class="rule-content">
+        			<h3>Keep Public Paths Open</h3>
+        			<p>Do not block roads, railways, rivers, ports or other shared infrastructure.</p>
+    			</div>
+			</div>
+
+			<div class="rule-item">
+    			<span class="rule-number">3</span>
+    			<div class="rule-content">
+        			<h3>No Exploits or Industrial Abuse</h3>
+        			<p>Cheats, duplication, extreme lag machines and destructive farms are not allowed.</p>
+    			</div>
+			</div>
+
+			<div class="rule-item">
+    			<span class="rule-number">4</span>
+   	 			<div class="rule-content">
+        			<h3>Build with Care</h3>
+        			<p>Minaro is a long-term world. Leave things that others can live with, visit and remember.</p>
+    			</div>
+			</div>
         </div>
     </div>
 </section>
