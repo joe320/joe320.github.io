@@ -25,9 +25,12 @@ mergeTranslations({
         "nav.blog": "Blog",
         "nav.gallery": "Gallery",
 
-        "button.copy": "Copy",
-        "button.copied": "Copied!",
-        "button.copyFailed": "Copy failed",
+        "button.copy": "复制地址",
+        "button.copied": "复制成功!",
+        "button.copyFailed": "复制失败，请刷新重试",
+        
+        "status.online": "Online",
+        "status.phase": "Preparation Phase",
 
         "hero.eyebrow": "Eastern Coastal World",
         "hero.text": "一个以原版生存、建筑、铁路、钓鱼、酿酒与慢生活为核心的小型 Minecraft 世界。这里不是快餐服务器，而是一片会慢慢留下痕迹的地方。",
@@ -63,8 +66,11 @@ mergeTranslations({
 
         "button.copy": "Copy",
         "button.copied": "Copied!",
-        "button.copyFailed": "Copy failed",
-
+        "button.copyFailed": "Copy failed,F5&retry",
+        
+        "status.online": "Online",
+        "status.phase": "Preparation Phase",
+        
         "hero.eyebrow": "Eastern Coastal World",
         "hero.text": "Minaro is a small Minecraft world focused on survival, building, railway, fishing, brewing and slow living. It is not a fast-paced server, but a place where traces remain over time.",
         "hero.join": "Join World",
@@ -99,8 +105,11 @@ mergeTranslations({
 
         "button.copy": "コピー",
         "button.copied": "コピーしました",
-        "button.copyFailed": "コピー失敗",
+        "button.copyFailed": "コピーに失敗しました。ページを更新して、もう一度お試しください。",
 
+        "status.online": "Online",
+        "status.phase": "準備段階",
+        
         "hero.eyebrow": "Eastern Coastal World",
         "hero.text": "Minaroは、サバイバル、建築、鉄道、釣り、醸造、そしてスローライフを核とした小規模なMinecraftワールドです。短期的に消費するサーバーではなく、時間とともに痕跡が残っていく場所です。",
         "hero.join": "参加する",
