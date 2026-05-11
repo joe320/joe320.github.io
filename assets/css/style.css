@@ -279,6 +279,7 @@ a {
     border-radius: var(--radius);
     background: var(--panel);
     box-shadow: var(--shadow);
+    animation: softReveal 0.75s ease both;
 }
 
 .entry-card h2 {
@@ -310,6 +311,7 @@ a {
     border-left: 2px solid var(--primary);
     border-radius: 0 14px 14px 0;
     background: var(--panel);
+    animation: softReveal 0.75s ease both;
 }
 
 .bulletin-date {
@@ -349,6 +351,7 @@ a {
     border-radius: var(--radius);
     background: var(--panel);
     padding: 24px;
+    animation: softReveal 0.75s ease both;
 }
 
 .feature-card {
