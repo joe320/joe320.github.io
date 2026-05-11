@@ -28,38 +28,41 @@
 
 <body>
     <header class="site-header">
-        <nav class="nav container">
-            <a class="logo" href="/">MINARO</a>
+    <nav class="menubar">
+        <div class="menubar-left">
+            <a class="brand" href="/">
+                MINARO
+            </a>
 
-            <div class="nav-links">
-                <a href="#entry">Join</a>
-                <a href="#bulletin">Bulletin</a>
-                <a href="#features">World</a>
-                <a href="#rules">Rules</a>
+            <div class="main-nav">
+                <a href="/" data-i18n="nav.home">首页</a>
+                <a href="https://map.minaro.cc:54460" target="_blank" rel="noopener" data-i18n="nav.map">地图</a>
+                <a href="/wiki.html" data-i18n="nav.wiki">Wiki</a>
             </div>
-        </nav>
+        </div>
+
+        <div class="language-switcher" aria-label="Language selector">
+            <button type="button" data-lang="zh" class="lang-btn active">中文</button>
+            <button type="button" data-lang="en" class="lang-btn">EN</button>
+            <button type="button" data-lang="ja" class="lang-btn">日本語</button>
+        </div>
+    </nav>
     </header>
 
     <main>
         <section class="hero">
             <div class="container hero-inner">
-                <p class="eyebrow">Eastern Coastal World</p>
+                <p class="eyebrow" data-i18n="hero.eyebrow">Eastern Coastal World</p>
 
                 <h1>Minaro</h1>
 
-                <p class="hero-text">
+                <p class="hero-text" data-i18n="hero.text">
                     一个以原版生存、建筑、铁路、钓鱼、酿酒与慢生活为核心的小型 Minecraft 世界。
-                    这里不是快餐服务器，而是一片会慢慢留下痕迹的地方。
                 </p>
 
                 <div class="hero-actions">
-                    <a class="button primary" href="#entry">进入世界</a>
-                    <a
-                        class="button secondary"
-                        href="https://map.minaro.cc:54460"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <a class="button primary" href="#entry" data-i18n="hero.join">进入世界</a>
+                    <a class="button secondary" href="https://map.minaro.cc:54460" target="_blank" rel="noopener" data-i18n="hero.map">
                         世界地图
                     </a>
                 </div>
@@ -70,7 +73,7 @@
             <div class="container">
                 <div class="entry-card">
                     <div>
-                        <p class="section-kicker">Server Address</p>
+                        <p class="section-kicker" data-i18n="entry.kicker">Server Address</p>
                         <h2>mc.minaro.cc</h2>
                         <p class="muted">
                             Minecraft Java Edition · 1.21.11
@@ -87,8 +90,8 @@
         <section class="bulletin-section" id="bulletin">
             <div class="container">
                 <div class="section-heading">
-                    <p class="section-kicker">World Bulletin</p>
-                    <h2>世界公告</h2>
+                    <p class="section-kicker" data-i18n="bulletin.kicker">World Bulletin</p>
+                        <h2 data-i18n="bulletin.title">世界公告</h2>
                 </div>
 
                 <div class="bulletin-list">
@@ -113,8 +116,8 @@
         <section class="features-section" id="features">
             <div class="container">
                 <div class="section-heading">
-                    <p class="section-kicker">World</p>
-                    <h2>这个世界的方向</h2>
+                    <p class="section-kicker" data-i18n="features.kicker">World</p>
+                        <h2 data-i18n="features.title">这个世界的方向</h2>    
                 </div>
 
                 <div class="tags">
@@ -165,8 +168,8 @@
         <section class="rules-section" id="rules">
             <div class="container">
                 <div class="section-heading">
-                    <p class="section-kicker">Rules</p>
-                    <h2>基本规则</h2>
+                    <p class="section-kicker" data-i18n="rules.kicker">Rules</p>
+                        <h2 data-i18n="rules.title">基本规则</h2>
                 </div>
 
                 <div class="rules-grid">
