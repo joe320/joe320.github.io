@@ -102,15 +102,22 @@ const translations = {
     }
 };
 
+function getTranslation(obj, path) {
+    return path.split(".").reduce((acc, part) => {
+        return acc && acc[part];
+    }, obj);
+}
+
 function setLanguage(lang) {
     const dictionary = translations[lang] || translations.zh;
 
     document.querySelectorAll("[data-i18n]").forEach((element) => {
         const key = element.dataset.i18n;
-
-        if (dictionary[key]) {
-            element.textContent = dictionary[key];
-        }
+        
+        const translation = getTranslation(dictionary, key);
+        if (translation) {
+            element.textContent = translation;
+        }    
     });
 
     document.querySelectorAll("[data-i18n-content]").forEach((element) => {
