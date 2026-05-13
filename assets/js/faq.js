@@ -143,7 +143,7 @@ const faqTranslations = {
 
     ja: {
         "meta.title": "Minaro FAQ",
-        "faq.meta.description": "Minaro FAQ は、サーバー参加、世界ルール、経済、墓の仕組み、保護、接続に関するよくある質問をまとめたページです。",
+        "faq.meta.description": "Minaro FAQ は、サーバー参加、世界ルール、経済、墓システム、保護、接続に関するよくある質問をまとめたページです。",
         "faq.meta.ogdescription": "Minaro のよくある質問と初心者向け案内です。",
 
         "nav.faq": "FAQ",
@@ -160,7 +160,7 @@ const faqTranslations = {
         "faq.toc.world": "世界と遊び方",
         "faq.toc.rules": "ルールと保護",
         "faq.toc.economy": "経済と通貨",
-        "faq.toc.death": "墓の仕組み",
+        "faq.toc.death": "墓システム",
         "faq.toc.technical": "技術的な問題",
 
         "faq.joining.title": "参加方法",
@@ -195,7 +195,7 @@ const faqTranslations = {
         "faq.economy.q3": "為替レートは固定ですか？",
         "faq.economy.a3": "公式の参考レートはありますが、プレイヤー間の取引は自由に交渉できます。地域によって価格差が生まれることもあります。",
 
-        "faq.death.title": "墓の仕組み",
+        "faq.death.title": "墓システム",
         "faq.death.q1": "死亡時にアイテムは落ちますか？",
         "faq.death.a1": "死亡するとその場に墓が出現し、プレイヤーは死亡地点に戻って遺品を回収する必要があります。",
         "faq.death.q2": "溶岩や奈落に落ちた場合は？",
