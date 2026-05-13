@@ -1,12 +1,12 @@
 const wikiTranslations = {
     zh: {
         "meta.title": "Minaro Wiki",
-        "wiki.meta.description": "Minaro Wiki 是 Minaro Minecraft 世界的居民手册，记录规则、经济、铁路、建筑、死亡机制与公共制度。",
+        "wiki.meta.description": "Minaro Wiki 是 Minaro Minecraft 世界的居民手册，记录规则、经济、铁路、建筑、墓碑机制与公共制度。",
         "wiki.meta.ogdescription": "Minaro 的居民手册与世界制度档案。",
 
         "wiki.hero.eyebrow": "Resident Handbook",
         "wiki.hero.title": "Minaro Wiki",
-        "wiki.hero.intro": "这里记录 Minaro 的基本规则、经济制度、建筑原则、铁路规划、死亡机制与公共生活方式。它不是一份冷冰冰的服务器说明书，而是这个世界的居民手册。",
+        "wiki.hero.intro": "这里记录 Minaro 的基本规则、经济制度、建筑原则、铁路规划、墓碑机制与公共生活方式。",
 
         "wiki.sidebar.title": "目录",
 
@@ -15,7 +15,7 @@ const wikiTranslations = {
         "wiki.toc.rules": "基本规则",
         "wiki.toc.economy": "经济与货币",
         "wiki.toc.protection": "物品与建筑保护",
-        "wiki.toc.death": "死亡机制",
+        "wiki.toc.death": "墓碑机制",
         "wiki.toc.railway": "铁路与聚落",
         "wiki.toc.plugins": "插件说明",
 
@@ -43,10 +43,10 @@ const wikiTranslations = {
 
         "wiki.economy.title": "经济与货币",
         "wiki.economy.desc": "Minaro 倾向使用实体物品作为交易媒介，而不是传统的余额数字经济。货币会占用空间，可以被运输、储存、交换，因此贸易会真正发生在地图中。",
-        "wiki.economy.harborTicket.title": "港券",
-        "wiki.economy.harborTicket.desc": "基础流通货币，使用毒马铃薯作为媒介。适合日常小额交易。",
-        "wiki.economy.seaTicket.title": "海券",
-        "wiki.economy.seaTicket.desc": "高价值储值货币，使用鹦鹉螺壳作为媒介。适合大宗贸易和储值。",
+        "wiki.economy.harborTicket.title": "毒马铃薯",
+        "wiki.economy.harborTicket.desc": "基础流通货币，适合日常小额交易。",
+        "wiki.economy.seaTicket.title": "鹦鹉螺壳",
+        "wiki.economy.seaTicket.desc": "高价值储值货币，适合大宗贸易和储值。",
         "wiki.economy.rate": "<strong>参考汇率：</strong>1 个鹦鹉螺壳 ≈ 32 个毒马铃薯。实际交易允许玩家自由议价。",
 
         "wiki.protection.title": "物品与建筑保护",
@@ -56,9 +56,9 @@ const wikiTranslations = {
         "wiki.protection.3": "公共设施，例如道路、铁路、车站、港口，不应被私人封锁。",
         "wiki.protection.4": "建议玩家把贵重物品放入受保护容器，不要长期裸露堆放。",
 
-        "wiki.death.title": "死亡机制",
+        "wiki.death.title": "墓碑机制",
         "wiki.death.desc": "Minaro 希望死亡有代价，但不会让一次失误摧毁玩家的长期积累。",
-        "wiki.death.1": "死亡后会生成墓碑或死亡容器。",
+        "wiki.death.1": "死亡后会生成墓碑。",
         "wiki.death.2": "玩家需要返回死亡地点回收遗物。",
         "wiki.death.3": "不开放 <code>/back</code>，交通和救援应成为世界的一部分。",
         "wiki.death.4": "岩浆和虚空死亡会根据插件设置尽量生成在最近安全位置。",
@@ -73,7 +73,7 @@ const wikiTranslations = {
         "wiki.plugins.title": "插件说明",
         "wiki.plugins.chestshop": "用于地图内实体商店，支持玩家之间的物品交易。",
         "wiki.plugins.brewery": "用于酿酒与地方特产，适合酒馆、聚会和聚落文化。",
-        "wiki.plugins.evenmorefish": "增强钓鱼内容，让渔业和港口生活更有意义。",
+        "wiki.plugins.fishrewards": "增强钓鱼内容，让渔业和港口生活更有意义。",
         "wiki.plugins.graves": "管理死亡后的物品回收，保留风险但降低挫败感。",
         "wiki.plugins.voicechat": "附近语音，让车站、港口和探险更有临场感。",
         "wiki.plugins.coreprotect": "用于日志查询、防熊和回滚，是长期世界的安全基础。"
@@ -81,12 +81,12 @@ const wikiTranslations = {
 
     en: {
         "meta.title": "Minaro Wiki",
-        "wiki.meta.description": "Minaro Wiki is the resident handbook for the Minaro Minecraft world, covering rules, economy, railways, building principles, death mechanics and public systems.",
+        "wiki.meta.description": "Minaro Wiki is the resident handbook for the Minaro Minecraft world, covering rules, economy, railways, building principles, grave mechanics and public systems.",
         "wiki.meta.ogdescription": "The resident handbook and civic archive of Minaro.",
 
         "wiki.hero.eyebrow": "Resident Handbook",
         "wiki.hero.title": "Minaro Wiki",
-        "wiki.hero.intro": "This page records the rules, economy, building principles, railway planning, death mechanics and public life of Minaro. It is not just a server manual, but a handbook for residents of this world.",
+        "wiki.hero.intro": "This page records the rules, economy, building principles, railway planning, grave mechanics and public life of Minaro.",
 
         "wiki.sidebar.title": "Contents",
 
@@ -95,7 +95,7 @@ const wikiTranslations = {
         "wiki.toc.rules": "Rules",
         "wiki.toc.economy": "Economy & Currency",
         "wiki.toc.protection": "Protection",
-        "wiki.toc.death": "Death Mechanics",
+        "wiki.toc.death": "Grave Mechanics",
         "wiki.toc.railway": "Railway & Settlements",
         "wiki.toc.plugins": "Plugins",
 
@@ -123,10 +123,10 @@ const wikiTranslations = {
 
         "wiki.economy.title": "Economy & Currency",
         "wiki.economy.desc": "Minaro tends to use physical items as trade media instead of traditional digital balances. Currency takes inventory space, can be transported, stored and exchanged, so trade actually happens in the world.",
-        "wiki.economy.harborTicket.title": "Harbor Ticket",
-        "wiki.economy.harborTicket.desc": "The basic circulating currency, represented by poisonous potatoes. Suitable for daily small trades.",
-        "wiki.economy.seaTicket.title": "Sea Ticket",
-        "wiki.economy.seaTicket.desc": "A higher-value storage currency, represented by nautilus shells. Suitable for bulk trade and saving value.",
+        "wiki.economy.harborTicket.title": "Poisonous Potatoes",
+        "wiki.economy.harborTicket.desc": "The basic circulating currency. Suitable for daily small trades.",
+        "wiki.economy.seaTicket.title": "Nautilus Shells",
+        "wiki.economy.seaTicket.desc": "A higher-value storage currency. Suitable for bulk trade and saving value.",
         "wiki.economy.rate": "<strong>Reference rate:</strong> 1 nautilus shell ≈ 32 poisonous potatoes. Actual trade prices may be negotiated freely.",
 
         "wiki.protection.title": "Protection",
@@ -136,9 +136,9 @@ const wikiTranslations = {
         "wiki.protection.3": "Public facilities such as roads, railways, stations and harbors should not be privately blocked.",
         "wiki.protection.4": "Players are advised to store valuables in protected containers instead of leaving them exposed.",
 
-        "wiki.death.title": "Death Mechanics",
+        "wiki.death.title": "Grave Mechanics",
         "wiki.death.desc": "Minaro wants death to have a cost, but not to destroy long-term progress with one mistake.",
-        "wiki.death.1": "A grave or death container will be created after death.",
+        "wiki.death.1": "A grave will be created after death.",
         "wiki.death.2": "Players need to return to the death location to recover their belongings.",
         "wiki.death.3": "<code>/back</code> is not available; transportation and rescue should become part of the world.",
         "wiki.death.4": "Lava and void deaths will try to generate the grave at the nearest safe location depending on plugin settings.",
@@ -153,7 +153,7 @@ const wikiTranslations = {
         "wiki.plugins.title": "Plugins",
         "wiki.plugins.chestshop": "Used for physical in-world shops and item trading between players.",
         "wiki.plugins.brewery": "Used for brewing and local specialties, supporting taverns, gatherings and settlement culture.",
-        "wiki.plugins.evenmorefish": "Expands fishing content and makes fishery and harbor life more meaningful.",
+        "wiki.plugins.fishrewards": "Expands fishing content and makes fishery and harbor life more meaningful.",
         "wiki.plugins.graves": "Manages item recovery after death while keeping risk and reducing frustration.",
         "wiki.plugins.voicechat": "Proximity voice chat, making stations, harbors and exploration feel more present.",
         "wiki.plugins.coreprotect": "Used for logging, anti-griefing and rollback. It is a safety foundation for a long-term world."
@@ -161,12 +161,12 @@ const wikiTranslations = {
 
     ja: {
         "meta.title": "Minaro Wiki",
-        "wiki.meta.description": "Minaro Wiki は、Minaro Minecraft ワールドの住民向けハンドブックです。ルール、経済、鉄道、建築方針、死亡システム、公共制度を記録します。",
+        "wiki.meta.description": "Minaro Wiki は、Minaro Minecraft ワールドの住民向けハンドブックです。ルール、経済、鉄道、建築方針、墓システム、公共制度を記録します。",
         "wiki.meta.ogdescription": "Minaro の住民手帳と世界制度の記録です。",
 
         "wiki.hero.eyebrow": "Resident Handbook",
         "wiki.hero.title": "Minaro Wiki",
-        "wiki.hero.intro": "ここには Minaro の基本ルール、経済制度、建築方針、鉄道計画、死亡システム、公共生活のあり方が記録されています。これは単なるサーバー説明書ではなく、この世界の住民手帳です。",
+        "wiki.hero.intro": "ここには Minaro の基本ルール、経済制度、建築方針、鉄道計画、墓システム、公共生活のあり方が記録されています。",
 
         "wiki.sidebar.title": "目次",
 
@@ -175,7 +175,7 @@ const wikiTranslations = {
         "wiki.toc.rules": "基本ルール",
         "wiki.toc.economy": "経済と通貨",
         "wiki.toc.protection": "保護システム",
-        "wiki.toc.death": "死亡システム",
+        "wiki.toc.death": "墓システム",
         "wiki.toc.railway": "鉄道と集落",
         "wiki.toc.plugins": "プラグイン",
 
@@ -203,10 +203,10 @@ const wikiTranslations = {
 
         "wiki.economy.title": "経済と通貨",
         "wiki.economy.desc": "Minaro では、従来のデジタル残高ではなく、実体のあるアイテムを取引媒体として使う方針です。通貨はインベントリを占有し、輸送・保管・交換できるため、取引は実際に世界の中で発生します。",
-        "wiki.economy.harborTicket.title": "港券",
-        "wiki.economy.harborTicket.desc": "基本的な流通通貨で、毒ジャガイモを媒体として使用します。日常的な小額取引に適しています。",
-        "wiki.economy.seaTicket.title": "海券",
-        "wiki.economy.seaTicket.desc": "高価値の保存通貨で、オウムガイの殻を媒体として使用します。大口取引や価値の保存に適しています。",
+        "wiki.economy.harborTicket.title": "毒ジャガイモ",
+        "wiki.economy.harborTicket.desc": "基本的な流通通貨で、日常的な小額取引に適しています。",
+        "wiki.economy.seaTicket.title": "オウムガイの殻",
+        "wiki.economy.seaTicket.desc": "高価値の保存通貨で、大口取引や価値の保存に適しています。",
         "wiki.economy.rate": "<strong>参考レート：</strong>オウムガイの殻 1 個 ≈ 毒ジャガイモ 32 個。実際の取引価格は自由に交渉できます。",
 
         "wiki.protection.title": "保護システム",
@@ -216,9 +216,9 @@ const wikiTranslations = {
         "wiki.protection.3": "道路、鉄道、駅、港などの公共施設を私的に封鎖しないでください。",
         "wiki.protection.4": "貴重品は保護されたコンテナに入れ、長時間むき出しで放置しないことを推奨します。",
 
-        "wiki.death.title": "死亡システム",
+        "wiki.death.title": "墓システム",
         "wiki.death.desc": "Minaro では死亡に代償を持たせますが、一度のミスで長期的な蓄積が失われないようにします。",
-        "wiki.death.1": "死亡後、墓または死亡コンテナが生成されます。",
+        "wiki.death.1": "死亡後、その場に墓が出現する。",
         "wiki.death.2": "プレイヤーは死亡地点へ戻って遺品を回収する必要があります。",
         "wiki.death.3": "<code>/back</code> は使用できません。交通と救助も世界の一部です。",
         "wiki.death.4": "溶岩や奈落で死亡した場合、プラグイン設定に応じて可能な限り近くの安全地点に墓が生成されます。",
@@ -233,7 +233,7 @@ const wikiTranslations = {
         "wiki.plugins.title": "プラグイン",
         "wiki.plugins.chestshop": "ワールド内の実体商店とプレイヤー間のアイテム取引に使用します。",
         "wiki.plugins.brewery": "醸造と地域特産品に使用し、酒場、集まり、集落文化を支えます。",
-        "wiki.plugins.evenmorefish": "釣り要素を拡張し、漁業と港の暮らしに意味を持たせます。",
+        "wiki.plugins.fishrewards": "釣り要素を拡張し、漁業と港の暮らしに意味を持たせます。",
         "wiki.plugins.graves": "死亡後のアイテム回収を管理し、リスクを残しつつ挫折感を抑えます。",
         "wiki.plugins.voicechat": "近接ボイスチャットにより、駅、港、探索の臨場感を高めます。",
         "wiki.plugins.coreprotect": "ログ確認、荒らし対策、ロールバックに使用します。長期世界の安全基盤です。"
