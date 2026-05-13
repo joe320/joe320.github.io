@@ -32,7 +32,7 @@ mergeTranslations({
         "status.online": "在线",
         "status.phase": "准备阶段",
 
-        "hero.eyebrow": "Eastern Coastal World",
+        "hero.eyebrow": "铁路与港口的世界",
         "hero.text": "一个以原版生存、建筑、铁路、钓鱼、酿酒与慢生活为核心的小型硬核 Minecraft 世界。",
         "hero.join": "进入世界",
         "hero.map": "世界地图",
@@ -42,9 +42,6 @@ mergeTranslations({
         "bulletin.kicker": "世界公告",
         "bulletin.title": "公告与日志",
         "bulletin.seeAll": "See all >",
-        "bulletin.item.siteOnline": "Minaro 网站已上线。",
-        "bulletin.item.archiveStarted": "世界日志开始记录长期事件。",
-        "bulletin.item.railwayPlanning": "第一阶段铁路计划准备中。",
 
         "features.kicker": "世界发展模式",
         "features.title": "发展模式",
@@ -75,7 +72,7 @@ mergeTranslations({
         "status.online": "Online",
         "status.phase": "Preparation Phase",
         
-        "hero.eyebrow": "Eastern Coastal World",
+        "hero.eyebrow": "The World of Railways and Ports",
         "hero.text": "Minaro is a small Minecraft world focused on survival, building, railway, fishing, brewing and slow living. It is not a fast-paced server, but a place where traces remain over time.",
         "hero.join": "Join World",
         "hero.map": "World Map",
@@ -85,9 +82,6 @@ mergeTranslations({
         "bulletin.kicker": "World Bulletin",
         "bulletin.title": "World Bulletin & Log",
         "bulletin.seeAll": "See all >",
-        "bulletin.item.siteOnline": "Minaro website is now online.",
-        "bulletin.item.archiveStarted": "World log has started recording long-term events.",
-        "bulletin.item.railwayPlanning": "The first railway plan is in preparation.",
 
         "features.kicker": "World",
         "features.title": "Direction of the World",
@@ -118,27 +112,27 @@ mergeTranslations({
         "status.online": "Online",
         "status.phase": "準備段階",
         
-        "hero.eyebrow": "Eastern Coastal World",
+        "hero.eyebrow": "鉄道と港湾の世界",
         "hero.text": "Minaroは、サバイバル、建築、鉄道、釣り、醸造、そしてスローライフを核とした小規模なMinecraftワールドです。短期的に消費するサーバーではなく、時間とともに痕跡が残っていく場所です。",
         "hero.join": "参加する",
         "hero.map": "ワールドマップ",
 
-        "entry.kicker": "Server Address",
+        "entry.kicker": "サーバーアドレス",
 
-        "bulletin.kicker": "World Bulletin",
-        "bulletin.title": "ワールド掲示板とログ",
+        "bulletin.kicker": "世界の速報",
+        "bulletin.title": "世界掲示板とログ",
         "bulletin.seeAll": "See all >",
         "bulletin.item.siteOnline": "Minaro サイトが公開されました。",
         "bulletin.item.archiveStarted": "ワールドログが長期的な出来事の記録を開始しました。",
         "bulletin.item.railwayPlanning": "第一期鉄道計画を準備中です。",
 
-        "features.kicker": "World",
+        "features.kicker": "世界",
         "features.title": "この世界の方向性",
 
-        "rules.kicker": "Rules",
+        "rules.kicker": "ルール",
         "rules.title": "基本ルール",
 
-        "footer.text": "A small world, slowly built by its residents."
+        "footer.text": "住民たちが少しずつ築き上げてきた、小さな世界。"
     }
 });
 
