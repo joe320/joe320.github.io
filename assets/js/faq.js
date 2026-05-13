@@ -1,7 +1,7 @@
 const faqTranslations = {
     zh: {
         "meta.title": "Minaro FAQ",
-        "faq.meta.description": "Minaro FAQ 收录加入服务器、世界规则、经济系统、死亡机制、建筑保护与技术连接等常见问题。",
+        "faq.meta.description": "Minaro FAQ 收录加入服务器、世界规则、经济系统、墓碑机制、建筑保护与技术连接等常见问题。",
         "faq.meta.ogdescription": "Minaro 的常见问题与新人说明。",
 
         "nav.faq": "FAQ",
@@ -18,7 +18,7 @@ const faqTranslations = {
         "faq.toc.world": "世界与玩法",
         "faq.toc.rules": "规则与保护",
         "faq.toc.economy": "经济与货币",
-        "faq.toc.death": "死亡机制",
+        "faq.toc.death": "墓碑机制",
         "faq.toc.technical": "技术问题",
 
         "faq.joining.title": "加入服务器",
@@ -53,9 +53,9 @@ const faqTranslations = {
         "faq.economy.q3": "汇率固定吗？",
         "faq.economy.a3": "可以有官方参考汇率，但玩家之间允许自由议价。不同地区也可能形成不同价格。",
 
-        "faq.death.title": "死亡机制",
+        "faq.death.title": "墓碑机制",
         "faq.death.q1": "死亡会掉落物品吗？",
-        "faq.death.a1": "死亡后会通过 Graves 类机制生成墓碑或死亡容器，玩家需要返回死亡地点取回遗物。",
+        "faq.death.a1": "死亡后会原地生成墓碑，玩家需要返回死亡地点取回遗物。",
         "faq.death.q2": "掉进岩浆或虚空怎么办？",
         "faq.death.a2": "插件会尽量在最近安全位置生成墓碑，具体效果以服务器实际设置为准。",
         "faq.death.q3": "有 /back 吗？",
@@ -72,7 +72,7 @@ const faqTranslations = {
 
     en: {
         "meta.title": "Minaro FAQ",
-        "faq.meta.description": "Minaro FAQ covers common questions about joining the server, world rules, economy, death mechanics, protection and technical connection issues.",
+        "faq.meta.description": "Minaro FAQ covers common questions about joining the server, world rules, economy, grave mechanics, protection and technical connection issues.",
         "faq.meta.ogdescription": "Common questions and beginner guidance for Minaro.",
 
         "nav.faq": "FAQ",
@@ -89,7 +89,7 @@ const faqTranslations = {
         "faq.toc.world": "World & Gameplay",
         "faq.toc.rules": "Rules & Protection",
         "faq.toc.economy": "Economy & Currency",
-        "faq.toc.death": "Death Mechanics",
+        "faq.toc.death": "Grave Mechanics",
         "faq.toc.technical": "Technical",
 
         "faq.joining.title": "Joining",
@@ -124,9 +124,9 @@ const faqTranslations = {
         "faq.economy.q3": "Is the exchange rate fixed?",
         "faq.economy.a3": "There may be official reference rates, but players are free to negotiate. Different regions may develop different prices.",
 
-        "faq.death.title": "Death Mechanics",
+        "faq.death.title": "Grave Mechanics",
         "faq.death.q1": "Do I drop items when I die?",
-        "faq.death.a1": "Death creates a grave or death container through Graves-like mechanics. Players need to return to the death location to recover items.",
+        "faq.death.a1": "A grave will spawn at the location where you died, and you must return there to retrieve your belongings.",
         "faq.death.q2": "What if I fall into lava or the void?",
         "faq.death.a2": "The plugin will try to generate the grave at the nearest safe location. Actual behavior depends on server settings.",
         "faq.death.q3": "Is /back available?",
@@ -143,7 +143,7 @@ const faqTranslations = {
 
     ja: {
         "meta.title": "Minaro FAQ",
-        "faq.meta.description": "Minaro FAQ は、サーバー参加、世界ルール、経済、死亡システム、保護、接続に関するよくある質問をまとめたページです。",
+        "faq.meta.description": "Minaro FAQ は、サーバー参加、世界ルール、経済、墓の仕組み、保護、接続に関するよくある質問をまとめたページです。",
         "faq.meta.ogdescription": "Minaro のよくある質問と初心者向け案内です。",
 
         "nav.faq": "FAQ",
@@ -160,7 +160,7 @@ const faqTranslations = {
         "faq.toc.world": "世界と遊び方",
         "faq.toc.rules": "ルールと保護",
         "faq.toc.economy": "経済と通貨",
-        "faq.toc.death": "死亡システム",
+        "faq.toc.death": "墓の仕組み",
         "faq.toc.technical": "技術的な問題",
 
         "faq.joining.title": "参加方法",
@@ -195,9 +195,9 @@ const faqTranslations = {
         "faq.economy.q3": "為替レートは固定ですか？",
         "faq.economy.a3": "公式の参考レートはありますが、プレイヤー間の取引は自由に交渉できます。地域によって価格差が生まれることもあります。",
 
-        "faq.death.title": "死亡システム",
+        "faq.death.title": "墓の仕組み",
         "faq.death.q1": "死亡時にアイテムは落ちますか？",
-        "faq.death.a1": "Graves 系の仕組みにより墓または死亡コンテナが生成され、プレイヤーは死亡地点へ戻って遺品を回収する必要があります。",
+        "faq.death.a1": "死亡するとその場に墓が出現し、プレイヤーは死亡地点に戻って遺品を回収する必要があります。",
         "faq.death.q2": "溶岩や奈落に落ちた場合は？",
         "faq.death.a2": "プラグインは可能な限り近くの安全地点に墓を生成します。実際の挙動はサーバー設定に従います。",
         "faq.death.q3": "/back はありますか？",
